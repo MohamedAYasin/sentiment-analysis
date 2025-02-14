@@ -8,7 +8,7 @@
 
 ---
 
-## 1- Introduction
+### 1- Introduction
 
 Sentiment analysis is the process of collecting and analyzing information, thoughts, and opinions regarding different topics whether it is politics, entertainment, subjects and services. Collecting these opinions can be beneficial to governments, organizations and individuals who want to make decisions based on others’ opinions. Sentiment analysis has gained popularity in the past recent years, not just among researchers and tech people but also among organizations, businesses and governments [1].
 
@@ -18,13 +18,13 @@ We were instructed to build and compare two models, a traditional machine learni
 
 --- 
 
-## 2- Preprocessing Steps
+### 2- Preprocessing Steps
 
 The process started with loading the dataset from Kaggle, and then we performed numerous preprocessing steps to standardize and clean the data like removing special characters and numbers. After that, we tokenized the data by splitting the tweets into words. Then, we did the lemmatization and stemming process to convert the tweet words to their base form. We also visualized the data key findings in different visualizations.
 
 --- 
 
-## 3- Visualizations:
+### 3- Visualizations:
 
 - ![Image](https://github.com/user-attachments/assets/9e978cb7-5933-462b-ad5f-5c2d5e4c322a)
 
@@ -34,7 +34,7 @@ The process started with loading the dataset from Kaggle, and then we performed 
 
 ---
 
-## 4- The Traditional Machine Learning Model
+### 4- The Traditional Machine Learning Model
 
 In this Traditional machine learning model, we explored and trained two simple models, Logistic Regression and SVM. Logistic Regression is one of the most used techniques in data mining, particularly binary data classification. One of the benefits and the reasons we used Logistic Regression is that it can assist with problems related to multi-class classification. Logistic Regression methods also follow the same principles used in Linear Regression [2].  Support Vector Machine known as SVM is also the other powerful model that we used to separate sentiment classes and improve the performance of the model.
 
@@ -44,13 +44,13 @@ Compared to the two models, the SVM has better performance due to its high accur
 
 ---
 
-## 5- The Deep Learning Model
+### 5- The Deep Learning Model
 
 In this Deep Learning Model, we implemented an LSTM network with Word2Vec embeddings. The LSTM is best known for sorting sequential data, as it allowed the model to capture the relationships between tweets. We used LSTM layers, Dropout regularizations and Softmax layer to prevent overfitting and improve the model performance.
 
 ---
 
-## 6. Findings and Evaluation
+### 6. Findings and Evaluation
 After we trained the models, we compared  their performances and realized that:
 
 Both Logistic Regression and SVM performed well on the TF-IDF.
@@ -58,26 +58,26 @@ LSTM with Word2Vec embeddings also provided better contextual understanding for 
 
 ---
 
-## 7. Conclusion
+### 7. Conclusion
 
 In this assignment project, we explored sentiment analysis on tweets using both traditional Machine Learning and Deep Learning models. In the traditional one, we trained two models, Logistic Regression and SVM, while we explored LSTM with Word2Vec on the Deep Learning model. The insights of both models showed that the models' performances improved over time. For the future, we aim to experiment with more advanced techniques like pre-trained transformers like BERT to improve the quality and performance.
 
 ---
 
-8- References:
+### 8- References:
 
 [1] J. F. Sánchez-Rada and C. A. Iglesias, “Social context in sentiment analysis: Formal definition, overview of current trends and framework for comparison,” Information Fusion, vol. 52, pp. 344–356, Dec. 2019, doi: https://doi.org/10.1016/j.inffus.2019.05.003.
 ‌[2] M. Maalouf, “Logistic regression in data analysis: An overview,” ResearchGate, Jul. 2011. https://www.researchgate.net/publication/227441142_Logistic_regression_in_data_analysis_An_overview‌
 
 ---
 
-## Links:
+### Links:
 Github Repository: https://github.com/MohamedAYasin/sentiment-analysis.git
 
 ---
 
-# Team Contribution:
-1- Data Load and Preprocessing: Mohamed Yasin and Esther Mbanzabigwi
+### Team Contribution:
+1- Data Load and Preprocessing: (Mohamed Yasin)[https://github.com/mohamedAYasin/] and Esther Mbanzabigwi
 2- Traditional Model: Esther Mbanzabigwi
 3- Deep Learning Model: Mohamed Yasin and Guled Hassan
 
